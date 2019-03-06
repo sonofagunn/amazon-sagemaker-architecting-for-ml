@@ -12,7 +12,7 @@ train_v2.zip - a set of .jpg files to train on
 test_v2.zip - a set of .jpg files for testing
 
 # Modeling Strategy
-
+Our strategy will be to convert the input dataset into the formats needed for SageMaker's object detection algorithm.
 
 # End Goal
 We aim to build a model that can be fed satellite images and identify locations of ships. Performance should be good enough to run daily on all new satellite images worldwide.
